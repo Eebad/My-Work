@@ -1,0 +1,18 @@
+body{
+    background-color: blanchedalmond;
+}
+.lorem{
+    width: 70em;
+    /* background-color: chocolate; */
+    /* cursor:pointer; */
+}
+.newclass{
+    background-color: darkorchid;
+}
+.lorem > pre{
+    cursor: pointer;
+}
+.lorem > pre:hover{
+    font-size: 110%;
+    color: darkblue;
+}

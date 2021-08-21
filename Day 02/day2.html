@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Day 02</title>
+        <style>
+            marquee{
+                color:chocolate;
+                font-size: 50px;
+                font-family:fantasy;
+                font-style:oblique;
+            }
+            label{
+                color: firebrick;
+            }
+            input{
+                color:burlywood;
+            }
+            img{
+                width: 200px;
+                margin-top: -15%;
+                margin-left: 40%;
+                border: chartreuse;
+                border-style:hidden;
+                border-width: 20px;
+                border-radius: 25%;
+            }
+            body{
+                background-image: linear-gradient(pink,cyan,grey);          }
+            .gen{
+                color:darkgreen !important;
+            }
+            #new{  /*id has heigher priority*/
+                color:rgb(223, 30, 30);
+            }
+            #pad{
+                width:40%;
+                background-color:black;
+                padding: 100px;
+            }
+        </style>
+    </head>
+    <marquee <!--style="color: red; font-size: 50px"-->Ibad Ur Rehman</marquee>
+    <br><br>
+    <body>
+        <form action="mailto:anybody@anything.com" method="GET">
+            Name: 
+            <input type="text" placeholder="Enter Your Name" required>
+            <br><br>
+            Gender:
+            <input type="radio" name="gender" value="male" id="1"> 
+            <label for="1" class="gen" id="new">Male</lable>
+            <input type="radio" name="gender" value="female" id="2">
+            <label for="2" class="gen">Female</lable> 
+            <br><br>   
+            SKILLS:
+            <input type="checkbox" name="skills" value="HTML"id="skill1">
+            <label for="skill1">HTML</label>
+            <input type="checkbox" name="skills" value="CSS" id="skill2">
+            <label for="skill2">CSS</label>
+            <input type="checkbox" name="skills" value="JS" id="skill3">
+            <label for="skill3">JS</label>
+            <br><br>
+            <input type="submit" name="submit" value="submit">
+            <input type="reset" value="reset"><br>
+        </form><br>
+
+        <select name="" id="">
+            <option value="">Akansha</option>
+            <option value="" selected>Alveera</option>
+        </select>
+        <br><br>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3_b_ecoVCDDLOx1mRizf7lm5WseIbdsH9ew&usqp=CAU">
+        <div id="pad">
+            <h1 style="background-color: blanchedalmond; margin: 10%;">Thank You</h1>
+        </div>
+    </body>
+</html>
