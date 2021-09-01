@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JavaScript</title>
+    <script>
+
+        // printing numbers from 0 to 10
+        for(var i=0; i<11; i++)
+        {
+            console.log(i);
+        }
+        
+
+        // printing tables of 2 and
+        var num=2
+        for(num; num<4; num++)
+        {
+            for(var i=1; i<11; i++)
+            {
+                console.log(num + "X" + i + "=" + num*i)
+            }
+            console.log("**************************************")
+        }
+
+
+        // to check if a number is prime
+        var a=0
+        for(var i=1; i<=3; i++)
+        {
+            if (3%i === 0)
+            {
+                a += 1
+            }
+           if (a > 2)
+           {
+                console.log("This is not a prime number")
+           }
+           else
+           {
+               console.log("This is a prime number")
+           }
+        }
+
+        // find function
+        var names = ["something", "somewhat", "however", "nobody"]
+        console.log(names.find(a => a==="something"));
+
+        // adding into an array
+        var names = ["something", "somewhat", "however", "nobody"]
+        console.log(names)
+        names.push("Ibad");
+        console.log(names);
+
+        // definig functions in javascirpt
+        function function_name()
+        {
+            console.log("Hello function");
+        }
+        function_name()
+
+        function Odd_Even(d)
+        {
+            if (d===0)
+            {
+                console.log("Its a zero")
+            }
+            else if (d%2 === 0)
+            {
+                console.log(d + " is an even number")
+            }
+            else {
+                console.log(d + " is an odd number")
+            }
+        }
+        Odd_Even(0)
+    </script>
+</head>
+<body>
+    <div style= "width: 20; background-color: black; height: 100px;">
+
+    </div>
+</body>
+</html>

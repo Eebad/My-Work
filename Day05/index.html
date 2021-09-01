@@ -5,11 +5,11 @@
     <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <!--CSS Only-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     
     <!--Font Awesome-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
 
     <!--JS-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -21,8 +21,8 @@
         <a href="#" class="navbar-brand">Brand Name</a>
 
         <div class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
+            <ul class="navbar-nav ml-auto">  <!--margin left auto-->
+                <li class="nav-item active">    
                     <a href="#" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item dropdown">
@@ -51,10 +51,10 @@
         </div>
     </nav>
 
-    <header class="w-100 full-h" id="main-head">
-        <div class="container h-100">
-            <div class="row text-light h-100">
-                <div class="col-12 col-md-6 align-self-center">
+    <header class="w-100 full-h" id="main-head"> <!--width 100%, height full,-->
+        <div class="container h-100"> <!--class container with height 100%-->
+            <div class="row text-light h-100"> <!--everything in row inside this div-->
+                <div class="col-12 col-md-6 align-self-center"> <!--everything in column in side this div, with 6 column in middle, overall 12 columns-->
                     <h1><strong>Let's Talk</strong></h1>
                     <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -66,15 +66,15 @@
     </header>
 
     <section class="page-section">
-        <div class="container">
-            <div class="text-center">
+        <div class="container"> <!--a container-->
+            <div class="text-center"> <!--text in center-->
                 <h1 class="section-heading text-uppercase">Services</h1>
                 <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
             </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <i class="text-warning fas fa-broadcast-tower fa-7x"></i>
-                    <h4 class="my-3">E-commerce</h4>
+            <div class="row text-center"> <!--row alignment-->
+                <div class="col-md-4"> <!--4 columns-->
+                    <i class="text-warning fas fa-broadcast-tower fa-7x"></i> <!--font awesome-->
+                    <h4 class="my-3">E-commerce</h4> <!--margin from y axis-->
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -119,8 +119,8 @@
                 <h1 class="sectoin-heading text-uppercase">Portfolio</h1>
                 <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur</h3>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="row"> <!--inside a container, a row-->
+                <div class="col-lg-4 col-sm-6 mb-4"> <!--large columns 4, small column 6, bottom margin 4-->
                     <div class="card mb-3">
                         <h3 class="card-header">Card Header</h3>
                         <div class="card-body">
@@ -207,7 +207,7 @@
         </div>
     </section>
 
-    <footer class="foorter py-5">
+    <footer class="foorter py-5"> <!--padding from y axis-->
         <div class="contaier">
             <div class="row align-items-center">
                 <div class="col-lg-4 text-lg-left">
