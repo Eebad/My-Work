@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!--JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+
+</head>
+<body>
+    <div class="container-fluid">
+        <h1 class="text-center">Tic Tac Toe</h1>
+        <div class="main-box">
+            <ul class="nav nav-pills">
+                <li class="active">
+                    <a>Player 1 <span class="badge" id="player1Score">0</span></a>
+                </li>
+                <li class="pull-right disabled"><a>Player 2 <span class="badge" id="player2Score">0</span></a></li>
+            </ul>
+            <div class="rows" id="board"></div>
+            <div class="controls btn-group btn-group-justified" >
+                <a id="clear" class="btn btn-primary">Clear</a>
+                <a id="reset" class="btn btn-warning">Reset</a>
+            </div>
+        </div>
+
+        <div id="alert-box" class="alert alert-dismissible alert-success">
+            <button class="close" data-dismiss="alert">&times;</button>
+            Player X <strong>WON!</strong>
+        </div>
+    </div>
+
+    <footer class="text-center">
+        DESIGNED and <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by <b>IBAD</b><br>
+    </footer>
+    
+</body>
+</html>
